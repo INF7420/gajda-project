@@ -7,7 +7,7 @@ Planning the site information architecture will help with the implementation of 
 
 # Homepage / Landing Page
 
-![Wireframe of Home Page/Landing Page](wireframes/homepage.png)
+![Wireframe of Home Page/Landing Page](wireframes/homepage.PNG)
 
 
 1)	Logo/home page link
@@ -30,7 +30,7 @@ Planning the site information architecture will help with the implementation of 
 
 # Products Page
 
-![Wireframe of Products Page](wireframes/productspage.png)
+![Wireframe of Products Page](wireframes/productspage.PNG)
 
 
   1&2 is the header and menu and will be included on all pages
@@ -43,7 +43,7 @@ Planning the site information architecture will help with the implementation of 
 
 # Projects Page
 
-![Wireframe of Projects Page](wireframes/projectspage.png)
+![Wireframe of Projects Page](wireframes/projectspage.PNG)
 
 
   1&2 is the header and menu and will be included on all pages
@@ -56,7 +56,7 @@ Planning the site information architecture will help with the implementation of 
 
 # Order Page
 
-![Wireframe of Order Page](wireframes/orderpage.png)
+![Wireframe of Order Page](wireframes/orderpage.PNG)
 
 
   1&2 is the header and menu and will be included on all pages
@@ -67,7 +67,7 @@ Planning the site information architecture will help with the implementation of 
 
 # About / Contact Page
 
-![Wireframe of Home About Page](wireframes/aboutpage.png)
+![Wireframe of Home About Page](wireframes/aboutpage.PNG)
 
 
   1&2 is the header and menu and will be included on all pages
