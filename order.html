@@ -4,35 +4,43 @@
   <meta charset="utf-8">
   <meta name="Description" content="INF 7420 Project">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello World</title>
+  <title>LDA Order Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
     <img src="images/lda_logo.jpg" alt="LaSalle Data Archives Logo">
-    <nav>
+    <nav class="main-navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="order.html">Order</a></li>
+          <li><a href="order.html" class="active">Order</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+    </header>
 <!-- Order page is a work in progress. I am considering options for an order page and for simplicity i will have an order form the emails selections-->
-<select name="product_order" size="4" multiple>
+<main>
+  <h3>Order Page</h3>
+  <p>Select product(s) you would like to request order information.</p>
+<div class="order-select">
+<select class="order-select" name="product_order" size="4" multiple>
   <option value="product_arduino1">arduino 1</option>
   <option value="product_arduino2">arduino 2</option>
   <option value="product_arduino3_class">arduino class</option>
   <option value="product_arduino4_wifi">arduino wifi</option>
 </select>
-<br />
-<br />
-<button type="button">Order</button>
+</div>
+<div class="order-button">
+<button class="order-button" type="button">Order</button>
+</div>
+</main>
 <!--Footer copyright and such-->
-<br />
-<br />
-<br />
-<br />
+<footer>
 &copy;2018 LaSalle Data Archives
-
+</footer>
 </body>
 </html>
