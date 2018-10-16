@@ -27,6 +27,7 @@
     line-height: 50px;
     display: inline-block;
   }
+
 }
 .main-navigation a {
   text-decoration: none;
@@ -51,9 +52,11 @@ img {
 
 
 main {
+  max-width: 1024px;
   padding-top: 50px;
   padding-bottom: 30px;
   text-align: center;
+  align-content: center;
 }
 
 main.contact-page {
@@ -115,6 +118,12 @@ div.index-banner {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
 }
+
+.contact-grid-container {
+  max-width: 1536px;
+
+}
+
 .project-grid-container {
   display: inline-grid;
   grid-template-columns: auto auto;
