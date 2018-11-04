@@ -311,6 +311,7 @@ div.form {
 }
 div.fname{
   text-align: center;
+  width: 50%;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -320,6 +321,7 @@ div.fname{
   }
 div.lname{
   text-align: center;
+  width: 50%;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -328,6 +330,7 @@ div.lname{
 
   }
 div.formmessage{
+  width: 50%;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -336,11 +339,16 @@ div.formmessage{
   padding-top: 30px;
 }
 div.replyemail{
+  width: 50%;
   text-align: center;
   padding: 0;
   margin: 0;
   overflow: hidden;
   max-width: 1024px;
+  padding-top: 30px;
+}
+div.submitbutton{
+
   padding-top: 30px;
 }
 
