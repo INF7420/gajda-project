@@ -299,3 +299,57 @@ div.contactgriditem8 {
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
+div.form {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  max-width: 1024px;
+  padding-top: 50px;
+
+}
+div.fname{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  max-width: 1024px;
+  padding-top: 30px;
+
+  }
+div.lname{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  max-width: 1024px;
+  padding-top: 30px;
+
+  }
+div.formmessage{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  max-width: 1024px;
+  padding-top: 30px;
+}
+div.replyemail{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  max-width: 1024px;
+  padding-top: 30px;
+}
+
+
+input[type=text], select, textarea{
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
