@@ -358,7 +358,11 @@ div.submitbutton{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+[type="submit"]:hover{
+  backgroud: #cfcfcf;
+[type="submit"]:hover{
+  backgroud: #EEEA84;
+}
 
 input[type=text], select, textarea{
   width: 60%;
