@@ -301,9 +301,10 @@ div.contactgriditem8 {
 }
 
 div.form {
+  border: 2px solid #cfcfcf;
   text-align: center;
-  padding: 0;
-  margin: 0;
+  padding: 2;
+  margin: 200px;
   overflow: hidden;
   max-width: 1024px;
   padding-top: 50px;
@@ -348,8 +349,14 @@ div.replyemail{
   padding-top: 30px;
 }
 div.submitbutton{
-
+  width: 50%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  max-width: 1024px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
