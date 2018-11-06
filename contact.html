@@ -43,7 +43,7 @@
           <div class="contactgriditem8"></div>
     </div>
 <div class="form">
-    <form action="https://formspree.io/josephgajda@gmail.com" method="POST">
+    <form action="https://formspree.io/josephgajda@gmail.com" method="POST" data-validate>
       <div class="fname"><label for="contactfname"> First Name</label>
     <input type="text" name="contactfname" required></div>
 
@@ -65,5 +65,10 @@
 <footer>
 &copy;2018 LaSalle Data Archives
 </footer>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js">
+</script>
+<script>
+  validate.init();
+</script>
 </body>
 </html>
