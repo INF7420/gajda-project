@@ -247,10 +247,6 @@ div.productgriditem8 {
 
 }
 
-p.profile-text{
-
-}
-
 div.contactgriditem1 {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -301,73 +297,46 @@ div.contactgriditem8 {
 }
 
 div.form {
-  border: 2px solid #cfcfcf;
+
   text-align: center;
   padding: 2;
-  margin: 200px;
+  margin: 100px;
   overflow: hidden;
   max-width: 1024px;
   padding-top: 50px;
 
 }
-div.fname{
-  text-align: center;
-  width: 50%;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  max-width: 1024px;
-  padding-top: 30px;
-
-  }
-div.lname{
-  text-align: center;
-  width: 50%;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  max-width: 1024px;
-  padding-top: 30px;
-
-  }
-div.formmessage{
-  width: 50%;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  max-width: 1024px;
-  padding-top: 30px;
+.forminput {
+  border: 2px solid #050505;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  width: 80%;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
-div.replyemail{
-  width: 50%;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  max-width: 1024px;
-  padding-top: 30px;
-}
-div.submitbutton{
-  width: 50%;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  max-width: 1024px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+
+.forminput:focus {
+  outline: none;
+  border: 2px solid #EEEA84;
 }
 [type="submit"]:hover{
-  backgroud: #cfcfcf;
-[type="submit"]:hover{
-  backgroud: #EEEA84;
+  width: 90%;
+  background: #EEEA84;
+  border: 0;
 }
-
+textarea {
+  border: 2px solid #050505;
+  width: 80%;
+  height: 250px;
+  resize: vertical;
+}
 input[type=text], select, textarea{
-  width: 60%;
+  width: 80%;
   padding: 12px;
-  border: 1px solid #cfcfcf;
+  border: 2px solid #050505;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;

@@ -44,19 +44,21 @@
     </div>
 <div class="form">
     <form action="https://formspree.io/josephgajda@gmail.com" method="POST" data-validate>
-      <div class="fname"><label for="contactfname"> First Name</label>
-    <input type="text" name="contactfname" required></div>
+      <div><label for="contactfname"> First Name</label>
+    <input type="text" class="forminput" name="contactfname" required></div>
 
-    <div class="lname"><label for="contactlname"> Last Name</label>
-      <input type="text" name="contactlname" required></div>
+    <div><label for="contactlname"> Last Name</label>
+      <input type="text" class="forminput" name="contactlname" required></div>
 
-      <div class="formmessage"><label for="formmessage"> Message </label>
-      <input type="text" name="formmessage" required></div>
+      <div><label for="formmessage"> Message </label>
+      <textarea type="text" class="forminput" name="formmessage" required></textarea></div>
 
-      <div class="replyemail"><label for="contactemail"> Your Email</label>
-      <input type="text" name="_replyto" required></div>
+      <div><label for="contactemail"> Your Email</label>
+      <input type="text" class="forminput" name="_replyto" required></div>
 
-      <div class="submitbutton"><input type="submit" value="Send"></div>
+      <div><button type="submit">Send</button></div>
+
+
     </form>
 </div>
 </main>
