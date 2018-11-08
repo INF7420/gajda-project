@@ -42,11 +42,38 @@
           <div class="contactgriditem7"></div>
           <div class="contactgriditem8"></div>
     </div>
+<div class="form">
+    <form action="https://formspree.io/josephgajda@gmail.com" method="POST" class="validate">
+      <div><label for="contactfname"> First Name</label>
+    <input type="text" class="forminput" name="contactfname" required></div>
+
+    <div><label for="contactlname"> Last Name</label>
+      <input type="text" class="forminput" name="contactlname" required></div>
+
+      <div><label for="formmessage"> Message </label>
+      <textarea type="text" class="forminput" name="formmessage" required></textarea></div>
+
+      <div><label for="contactemail"> Your Email</label>
+      <input type="text" class="forminput" name="_replyto" required></div>
+
+      <div><button type="submit">Send</button></div>
+      <input type="hidden" name="_next" value="https://inf7420.github.io/gajda-project/thanks.html" />
+
+    </form>
+</div>
 </main>
 
 <!--Footer copyright and such-->
 <footer>
 &copy;2018 LaSalle Data Archives
 </footer>
+<!--<script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js">
+</script>
+<script>
+  validate.init();
+</script>-->
+
+<script src="scripts.js"></script>
+
 </body>
 </html>
