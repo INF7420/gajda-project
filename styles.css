@@ -52,7 +52,7 @@ img {
 
 
 main {
-  max-width: 1024px;
+
   padding-top: 50px;
   padding-bottom: 30px;
   text-align: center;
@@ -302,7 +302,7 @@ div.form {
   padding: 2;
   margin: 100px;
   overflow: hidden;
-  max-width: 1024px;
+
   padding-top: 50px;
 
 }
@@ -361,4 +361,13 @@ input[type=text], select, textarea{
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+}
+.error {
+  border-color: #C62828;
+}
+
+.error-message {
+  margin-top: -1em;
+  margin-bottom: 1em;
+  color: #C62828;
 }
